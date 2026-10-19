@@ -111,9 +111,14 @@
                 <a href="#projects" class="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-slate-950 font-bold rounded-xl shadow-lg shadow-cyan-500/20 transition flex items-center justify-center gap-2 text-sm">
                     <i class="fas fa-rocket"></i> View My Work
                 </a>
-                <a href="{{ asset('path-to-your-cv.pdf') }}" download class="w-full py-3 bg-slate-900 hover:bg-slate-800 text-slate-200 font-bold rounded-xl border border-slate-700/80 transition flex items-center justify-center gap-2 text-sm">
-                    <i class="fas fa-download"></i> Unduh CV
-                </a>
+                
+<a href="{{ asset('ISMELIANI.pdf') }}"
+   download="ISMELIANI.pdf"
+   class="w-full py-3 bg-slate-900 hover:bg-slate-800 text-slate-200 font-bold rounded-xl border border-slate-700/80 transition flex items-center justify-center gap-2 text-sm">
+    <i class="fas fa-download"></i>
+    Unduh CV
+</a>
+
             </div>
 
         </section>
